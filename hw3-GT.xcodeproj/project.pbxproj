@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D9F76D4285B77C400599E60 /* classMacbook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9F76D3285B77C400599E60 /* classMacbook.swift */; };
+		4D9F76D6285B800E00599E60 /* classiPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9F76D5285B800E00599E60 /* classiPhone.swift */; };
 		4DF8FF4B285B19A3004B958A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF8FF4A285B19A3004B958A /* main.swift */; };
+		4DF8FF52285B19EB004B958A /* classTechnique.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF8FF51285B19EB004B958A /* classTechnique.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +26,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4D9F76D3285B77C400599E60 /* classMacbook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = classMacbook.swift; sourceTree = "<group>"; };
+		4D9F76D5285B800E00599E60 /* classiPhone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = classiPhone.swift; sourceTree = "<group>"; };
 		4DF8FF47285B19A3004B958A /* hw3-GT */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "hw3-GT"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DF8FF4A285B19A3004B958A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		4DF8FF51285B19EB004B958A /* classTechnique.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = classTechnique.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +47,9 @@
 		4DF8FF3E285B19A3004B958A = {
 			isa = PBXGroup;
 			children = (
+				4D9F76D5285B800E00599E60 /* classiPhone.swift */,
+				4D9F76D3285B77C400599E60 /* classMacbook.swift */,
+				4DF8FF51285B19EB004B958A /* classTechnique.swift */,
 				4DF8FF49285B19A3004B958A /* hw3-GT */,
 				4DF8FF48285B19A3004B958A /* Products */,
 			);
@@ -121,6 +130,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DF8FF4B285B19A3004B958A /* main.swift in Sources */,
+				4D9F76D6285B800E00599E60 /* classiPhone.swift in Sources */,
+				4D9F76D4285B77C400599E60 /* classMacbook.swift in Sources */,
+				4DF8FF52285B19EB004B958A /* classTechnique.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
